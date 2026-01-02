@@ -1,13 +1,15 @@
 package com.project.code.Controller;
 
-import com.project.code.Model.Review;
-import com.project.code.Model.Customer;
-import com.project.code.Repository.ReviewRepository;
-import com.project.code.Repository.CustomerRepository;
+import com.project.code.model.sql.Review;
+import com.project.code.model.sql.Customer;
+import com.project.code.repository.ReviewRepository;
+import com.project.code.repository.CustomerRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
+
 
 @RestController
 @RequestMapping("/reviews")
@@ -41,7 +43,8 @@ public class ReviewController {
             reviewData.put("rating", review.getRating());
 
             // Fetch customer name
-            Customer customer = customerRepository.findByid(review.getCustomerId());
+            Customer customer = customerRepository.findById(review.getCustomerId()).orElse(null);
+
 
             if (customer != null) {
                 reviewData.put("customerName", customer.getName());

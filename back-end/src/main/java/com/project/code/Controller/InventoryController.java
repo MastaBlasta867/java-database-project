@@ -1,9 +1,11 @@
 package com.project.code.Controller;
 
-import com.project.code.Model.Inventory;
-import com.project.code.Model.Product;
-import com.project.code.Repository.InventoryRepository;
-import com.project.code.Repository.ProductRepository;
+import com.project.code.model.sql.Inventory;
+import com.project.code.model.sql.Product;
+
+import com.project.code.repository.InventoryRepository;
+import com.project.code.repository.ProductRepository;
+
 import com.project.code.Service.ServiceClass;
 import com.project.code.dto.CombinedRequest;
 import org.springframework.beans.factory.annotation.Autowired;

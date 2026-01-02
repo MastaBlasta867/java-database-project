@@ -1,22 +1,22 @@
-package com.example.service;
+package com.project.code.Service;
 
-import com.example.dto.PlaceOrderRequestDTO;
-import com.example.dto.PurchaseProductDTO;
-import com.example.model.Customer;
-import com.example.model.Inventory;
-import com.example.model.OrderDetails;
-import com.example.model.OrderItem;
-import com.example.model.Store;
-import com.example.repository.CustomerRepository;
-import com.example.repository.InventoryRepository;
-import com.example.repository.OrderDetailsRepository;
-import com.example.repository.OrderItemRepository;
-import com.example.repository.ProductRepository;
-import com.example.repository.StoreRepository;
+import com.project.code.model.sql.PlaceOrderRequestDTO;
+import com.project.code.model.sql.PurchaseProductDTO;
+import com.project.code.model.sql.Customer;
+import com.project.code.model.sql.Inventory;
+import com.project.code.model.sql.OrderDetails;
+import com.project.code.model.sql.OrderItem;
+import com.project.code.model.sql.Store;
+
+import com.project.code.Repo.CustomerRepository;
+import com.project.code.Repo.InventoryRepository;
+import com.project.code.Repo.OrderDetailsRepository;
+import com.project.code.Repo.OrderItemRepository;
+import com.project.code.Repo.ProductRepository;
+import com.project.code.Repo.StoreRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
 
 @Service
 public class OrderService {
