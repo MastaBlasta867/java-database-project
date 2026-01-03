@@ -183,807 +183,807 @@ INSERT INTO customer (name, email, phone) VALUES
 ('Joshua Young', 'joshua.young@example.com', '7788990011'),
 ('Luke Davis', 'luke.davis@example.com', '8899001122');
 
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (1, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 2
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (2, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 3
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (3, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 4
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (4, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 5
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (5, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 6
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (6, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 7
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (7, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 8
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (8, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 9
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (9, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 10
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (10, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 11
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (11, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 12
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (12, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 13
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (13, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 14
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (14, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 15
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (15, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 16
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (16, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 17
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (17, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 18
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (18, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 19
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (19, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 20
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (20, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 21
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (21, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 22
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (22, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 23
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (23, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 24
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (24, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 25
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (25, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 26
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (26, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 27
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (27, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 28
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (28, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 29
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (29, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 30
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (30, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 31
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (31, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 32
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (32, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 33
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (33, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 34
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (34, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 35
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (35, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 36
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (36, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 37
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (37, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 38
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (38, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 39
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (39, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 40
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (40, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 41
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (41, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 42
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (42, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 43
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (43, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 44
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (44, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 45
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (45, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 46
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (46, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 47
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (47, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 48
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (48, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 49
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (49, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 50
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (50, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 
 -- Order 51
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (51, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 52
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (52, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 53
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (53, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 54
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (54, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 55
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (55, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 56
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (56, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 57
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (57, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 58
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (58, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 59
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (59, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 60
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (60, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 61
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (61, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 62
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (62, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 63
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (63, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 64
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (64, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 65
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (65, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 66
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (66, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 67
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (67, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 68
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (68, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 69
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (69, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 70
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (70, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 71
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (71, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 72
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (72, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 73
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (73, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 74
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (74, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 75
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (75, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 76
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (76, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 77
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (77, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 78
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (78, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 79
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (79, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 80
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (80, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 81
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (81, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 82
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (82, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 83
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (83, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 84
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (84, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 85
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (85, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 86
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (86, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 87
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (87, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 88
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (88, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 89
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (89, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 90
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (90, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 91
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (91, 1, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 92
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (92, 2, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 93
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (93, 3, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 94
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (94, 4, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 95
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (95, 5, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 96
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (96, 6, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 97
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (97, 7, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 98
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (98, 8, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 99
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (99, 9, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order 100
-INSERT INTO order_details (customer_id, store_id, total_price, date) 
+INSERT INTO order_details (customer_id, store_id, total_price, order_date) 
 VALUES (100, 10, ROUND(RAND() * 300 + 100, 2), DATE_ADD('2024-03-31', INTERVAL FLOOR(RAND() * 365) DAY));
 
 -- Order Item for Order 1
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (1, 1, 2, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (1, 11, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (1, 1, 2, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (1, 11, 1, 59.99);
 
 -- Order Item for Order 2
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (2, 2, 3, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (2, 12, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (2, 2, 3, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (2, 12, 1, 79.99);
 
 -- Order Item for Order 3
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (3, 3, 1, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (3, 13, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (3, 3, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (3, 13, 2, 39.99);
 
 -- Order Item for Order 4
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (4, 4, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (4, 14, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (4, 4, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (4, 14, 3, 79.99);
 
 -- Order Item for Order 5
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (5, 5, 2, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (5, 15, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (5, 5, 2, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (5, 15, 1, 99.99);
 
 -- Order Item for Order 6
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (6, 6, 3, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (6, 16, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (6, 6, 3, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (6, 16, 2, 49.99);
 
 -- Order Item for Order 7
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (7, 7, 1, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (7, 17, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (7, 7, 1, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (7, 17, 2, 39.99);
 
 -- Order Item for Order 8
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (8, 8, 2, 99.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (8, 18, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (8, 8, 2, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (8, 18, 1, 79.99);
 
 -- Order Item for Order 9
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (9, 9, 1, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (9, 19, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (9, 9, 1, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (9, 19, 3, 49.99);
 
 -- Order Item for Order 10
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (10, 10, 2, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (10, 20, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (10, 10, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (10, 20, 1, 59.99);
 
 -- Order Item for Order 11
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (11, 1, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (11, 11, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (11, 1, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (11, 11, 2, 79.99);
 
 -- Order Item for Order 12
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (12, 2, 3, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (12, 12, 1, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (12, 2, 3, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (12, 12, 1, 89.99);
 
 -- Order Item for Order 13
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (13, 3, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (13, 13, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (13, 3, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (13, 13, 1, 59.99);
 
 -- Order Item for Order 14
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (14, 4, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (14, 14, 2, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (14, 4, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (14, 14, 2, 99.99);
 
 -- Order Item for Order 15
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (15, 5, 1, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (15, 15, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (15, 5, 1, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (15, 15, 3, 79.99);
 
 -- Order Item for Order 16
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (16, 6, 2, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (16, 16, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (16, 6, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (16, 16, 1, 69.99);
 
 -- Order Item for Order 17
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (17, 7, 1, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (17, 17, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (17, 7, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (17, 17, 3, 79.99);
 
 -- Order Item for Order 18
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (18, 8, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (18, 18, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (18, 8, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (18, 18, 1, 99.99);
 
 -- Order Item for Order 19
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (19, 9, 3, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (19, 19, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (19, 9, 3, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (19, 19, 1, 39.99);
 
 -- Order Item for Order 20
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (20, 10, 2, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (20, 20, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (20, 10, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (20, 20, 1, 49.99);
 
 -- Order Item for Order 21
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (21, 1, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (21, 11, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (21, 1, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (21, 11, 2, 89.99);
 
 -- Order Item for Order 22
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (22, 2, 3, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (22, 12, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (22, 2, 3, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (22, 12, 1, 79.99);
 
 -- Order Item for Order 23
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (23, 3, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (23, 13, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (23, 3, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (23, 13, 2, 49.99);
 
 -- Order Item for Order 24
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (24, 4, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (24, 14, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (24, 4, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (24, 14, 2, 79.99);
 
 -- Order Item for Order 25
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (25, 5, 2, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (25, 15, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (25, 5, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (25, 15, 1, 99.99);
 
 -- Order Item for Order 26
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (26, 6, 3, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (26, 16, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (26, 6, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (26, 16, 2, 59.99);
 
 -- Order Item for Order 27
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (27, 7, 1, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (27, 17, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (27, 7, 1, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (27, 17, 2, 39.99);
 
 -- Order Item for Order 28
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (28, 8, 2, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (28, 18, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (28, 8, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (28, 18, 1, 69.99);
 
 -- Order Item for Order 29
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (29, 9, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (29, 19, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (29, 9, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (29, 19, 3, 49.99);
 
 -- Order Item for Order 30
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (30, 10, 2, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (30, 20, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (30, 10, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (30, 20, 1, 79.99);
 
 -- Order Item for Order 31
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (31, 1, 3, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (31, 11, 1, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (31, 1, 3, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (31, 11, 1, 89.99);
 
 -- Order Item for Order 32
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (32, 2, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (32, 12, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (32, 2, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (32, 12, 1, 59.99);
 
 -- Order Item for Order 33
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (33, 3, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (33, 13, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (33, 3, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (33, 13, 2, 69.99);
 
 -- Order Item for Order 34
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (34, 4, 1, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (34, 14, 2, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (34, 4, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (34, 14, 2, 99.99);
 
 -- Order Item for Order 35
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (35, 5, 2, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (35, 15, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (35, 5, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (35, 15, 1, 49.99);
 
 -- Order Item for Order 36
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (36, 6, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (36, 16, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (36, 6, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (36, 16, 1, 69.99);
 
 -- Order Item for Order 37
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (37, 7, 1, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (37, 17, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (37, 7, 1, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (37, 17, 2, 49.99);
 
 -- Order Item for Order 38
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (38, 8, 3, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (38, 18, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (38, 8, 3, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (38, 18, 1, 79.99);
 
 -- Order Item for Order 39
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (39, 9, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (39, 19, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (39, 9, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (39, 19, 2, 49.99);
 
 -- Order Item for Order 40
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (40, 10, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (40, 20, 3, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (40, 10, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (40, 20, 3, 89.99);
 
 -- Order Item for Order 41
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (41, 1, 2, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (41, 11, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (41, 1, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (41, 11, 1, 69.99);
 
 -- Order Item for Order 42
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (42, 2, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (42, 12, 3, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (42, 2, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (42, 12, 3, 99.99);
 
 -- Order Item for Order 43
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (43, 3, 2, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (43, 13, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (43, 3, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (43, 13, 1, 79.99);
 
 -- Order Item for Order 44
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (44, 4, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (44, 14, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (44, 4, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (44, 14, 2, 69.99);
 
 -- Order Item for Order 45
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (45, 5, 3, 29.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (45, 15, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (45, 5, 3, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (45, 15, 2, 49.99);
 
 -- Order Item for Order 46
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (46, 6, 1, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (46, 16, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (46, 6, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (46, 16, 2, 69.99);
 
 -- Order Item for Order 47
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (47, 7, 3, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (47, 17, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (47, 7, 3, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (47, 17, 1, 39.99);
 
 -- Order Item for Order 48
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (48, 8, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (48, 18, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (48, 8, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (48, 18, 2, 49.99);
 
 -- Order Item for Order 49
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (49, 9, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (49, 19, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (49, 9, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (49, 19, 3, 79.99);
 
 -- Order Item for Order 50
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (50, 10, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (50, 20, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (50, 10, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (50, 20, 1, 69.99);
 
 
 -- Order Item 51
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (51, 1, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (51, 5, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (51, 13, 3, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (51, 1, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (51, 5, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (51, 13, 3, 29.99);
 
 -- Order Item 52
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (52, 2, 1, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (52, 6, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (52, 2, 1, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (52, 6, 2, 79.99);
 
 -- Order Item 53
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (53, 3, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (53, 12, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (53, 3, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (53, 12, 2, 89.99);
 
 -- Order Item 54
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (54, 4, 3, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (54, 14, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (54, 4, 3, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (54, 14, 1, 59.99);
 
 -- Order Item 55
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (55, 5, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (55, 11, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (55, 5, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (55, 11, 1, 99.99);
 
 -- Order Item 56
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (56, 6, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (56, 8, 3, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (56, 6, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (56, 8, 3, 69.99);
 
 -- Order Item 57
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (57, 7, 2, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (57, 9, 1, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (57, 7, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (57, 9, 1, 89.99);
 
 -- Order Item 58
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (58, 8, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (58, 10, 3, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (58, 8, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (58, 10, 3, 39.99);
 
 -- Order Item 59
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (59, 9, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (59, 11, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (59, 9, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (59, 11, 1, 79.99);
 
 -- Order Item 60
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (60, 10, 3, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (60, 12, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (60, 10, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (60, 12, 2, 89.99);
 
 -- Order Item 61
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (61, 11, 1, 99.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (61, 13, 2, 29.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (61, 11, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (61, 13, 2, 29.99);
 
 -- Order Item 62
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (62, 12, 3, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (62, 14, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (62, 12, 3, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (62, 14, 1, 39.99);
 
 -- Order Item 63
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (63, 13, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (63, 15, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (63, 13, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (63, 15, 1, 59.99);
 
 -- Order Item 64
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (64, 14, 1, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (64, 16, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (64, 14, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (64, 16, 2, 89.99);
 
 -- Order Item 65
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (65, 15, 3, 19.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (65, 17, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (65, 15, 3, 19.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (65, 17, 2, 69.99);
 
 -- Order Item 66
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (66, 16, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (66, 18, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (66, 16, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (66, 18, 1, 79.99);
 
 -- Order Item 67
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (67, 17, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (67, 19, 3, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (67, 17, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (67, 19, 3, 59.99);
 
 -- Order Item 68
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (68, 18, 2, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (68, 20, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (68, 18, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (68, 20, 1, 99.99);
 
 -- Order Item 69
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (69, 19, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (69, 21, 3, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (69, 19, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (69, 21, 3, 39.99);
 
 -- Order Item 70
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (70, 20, 2, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (70, 22, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (70, 20, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (70, 22, 1, 79.99);
 
 -- Order Item 71
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (71, 21, 3, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (71, 23, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (71, 21, 3, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (71, 23, 1, 59.99);
 
 -- Order Item 72
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (72, 22, 2, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (72, 24, 1, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (72, 22, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (72, 24, 1, 89.99);
 
 -- Order Item 73
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (73, 23, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (73, 25, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (73, 23, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (73, 25, 2, 49.99);
 
 -- Order Item 74
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (74, 24, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (74, 26, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (74, 24, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (74, 26, 1, 69.99);
 
 -- Order Item 75
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (75, 25, 3, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (75, 27, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (75, 25, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (75, 27, 1, 79.99);
 
 -- Order Item 76
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (76, 26, 1, 89.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (76, 28, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (76, 26, 1, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (76, 28, 2, 39.99);
 
 -- Order Item 77
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (77, 27, 1, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (77, 29, 3, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (77, 27, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (77, 29, 3, 59.99);
 
 -- Order Item 78
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (78, 28, 2, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (78, 30, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (78, 28, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (78, 30, 1, 99.99);
 
 -- Order Item 79
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (79, 29, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (79, 31, 2, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (79, 29, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (79, 31, 2, 49.99);
 
 -- Order Item 80
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (80, 30, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (80, 32, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (80, 30, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (80, 32, 1, 69.99);
 
 -- Order Item 81
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (81, 31, 3, 49.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (81, 33, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (81, 31, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (81, 33, 2, 59.99);
 
 -- Order Item 82
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (82, 32, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (82, 34, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (82, 32, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (82, 34, 3, 79.99);
 
 -- Order Item 83
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (83, 33, 2, 89.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (83, 35, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (83, 33, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (83, 35, 1, 99.99);
 
 -- Order Item 84
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (84, 34, 2, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (84, 36, 1, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (84, 34, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (84, 36, 1, 49.99);
 
 -- Order Item 85
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (85, 35, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (85, 37, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (85, 35, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (85, 37, 2, 69.99);
 
 -- Order Item 86
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (86, 36, 3, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (86, 38, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (86, 36, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (86, 38, 2, 89.99);
 
 -- Order Item 87
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (87, 37, 1, 99.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (87, 39, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (87, 37, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (87, 39, 3, 49.99);
 
 -- Order Item 88
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (88, 38, 1, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (88, 40, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (88, 38, 1, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (88, 40, 2, 69.99);
 
 -- Order Item 89
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (89, 39, 2, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (89, 41, 1, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (89, 39, 2, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (89, 41, 1, 89.99);
 
 -- Order Item 90
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (90, 40, 3, 99.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (90, 42, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (90, 40, 3, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (90, 42, 2, 59.99);
 
 -- Order Item 91
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (91, 41, 1, 69.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (91, 43, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (91, 41, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (91, 43, 3, 49.99);
 
 -- Order Item 92
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (92, 42, 2, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (92, 44, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (92, 42, 2, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (92, 44, 1, 79.99);
 
 -- Order Item 93
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (93, 43, 3, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (93, 45, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (93, 43, 3, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (93, 45, 2, 69.99);
 
 -- Order Item 94
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (94, 44, 1, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (94, 46, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (94, 44, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (94, 46, 3, 49.99);
 
 -- Order Item 95
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (95, 45, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (95, 47, 1, 99.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (95, 45, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (95, 47, 1, 99.99);
 
 -- Order Item 96
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (96, 46, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (96, 48, 2, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (96, 46, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (96, 48, 2, 69.99);
 
 -- Order Item 97
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (97, 47, 3, 79.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (97, 49, 2, 89.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (97, 47, 3, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (97, 49, 2, 89.99);
 
 -- Order Item 98
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (98, 48, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (98, 50, 1, 69.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (98, 48, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (98, 50, 1, 69.99);
 
 -- Order Item 99
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (99, 49, 1, 39.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (99, 50, 3, 49.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (99, 49, 1, 39.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (99, 50, 3, 49.99);
 
 -- Order Item 100
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (100, 50, 2, 59.99);
-INSERT INTO order_item (order_id, product_id, quantity, price) VALUES (100, 1, 1, 79.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (100, 50, 2, 59.99);
+INSERT INTO order_item (order_details_id, product_id, quantity, price) VALUES (100, 1, 1, 79.99);
 
 
 
